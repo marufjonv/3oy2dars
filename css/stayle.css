@@ -70,7 +70,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1210;
+  max-width: 1210px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;
@@ -104,6 +104,18 @@ img {
 .btn-dark {
   color: #002529;
   border-color: #002529;
+}
+
+.orange-text {
+  color: #f67e7e;
+}
+
+.divider {
+  height: 4px;
+  width: 50px;
+}
+.blue-divider {
+  background-color: #79c8c7;
 }
 
 /* header start */
@@ -145,3 +157,43 @@ img {
 }
 
 /* header end */
+
+/* hero start */
+.main {
+}
+.hero {
+  background-color: #014e56;
+  padding-top: 56px;
+  padding-bottom: 250px;
+  color: #ffffff;
+  background-image: url("../images/hero-bg-left.svg"),
+    url("../images/hero-bg-right-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 50px, right 165px bottom -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* hero end */
