@@ -117,6 +117,9 @@ img {
 .blue-divider {
   background-color: #79c8c7;
 }
+.orange-divider {
+  background-color: #f67e7e;
+}
 
 /* header start */
 .header {
@@ -196,3 +199,55 @@ img {
   line-height: 28px;
 }
 /* hero end */
+
+/* service start  */
+
+.div-service {
+  display: flex;
+  padding-bottom: 140px;
+}
+.service {
+  background-color: #012f34;
+  background-image: url("../images/box-top\ -right.svg");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.service-container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 14px;
+}
+
+.service-title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+  height: 144px;
+  padding-right: 125px;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.service-item {
+  display: flex;
+  gap: 23px;
+}
+
+.service-item-title {
+  color: #f67e7e;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.service-description {
+  color: #ffffff;
+}
+/* service end */
