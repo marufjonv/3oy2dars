@@ -58,6 +58,7 @@ body {
   font-size: 15px;
   line-height: 25px;
   font-weight: 600;
+  background-color: #014e56;
 }
 
 main {
@@ -109,6 +110,9 @@ img {
 .orange-text {
   color: #f67e7e;
 }
+.blue-text {
+  color: #79c8c7;
+}
 
 .divider {
   height: 4px;
@@ -123,7 +127,6 @@ img {
 
 /* header start */
 .header {
-  background-color: #014e56;
   padding-top: 73px;
   padding-bottom: 73px;
 }
@@ -164,7 +167,6 @@ img {
 /* hero start */
 
 .hero {
-  background-color: #014e56;
   padding-top: 56px;
   padding-bottom: 250px;
   color: #ffffff;
@@ -251,3 +253,36 @@ img {
   color: #ffffff;
 }
 /* service end */
+/* STORIES START */
+.stories {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url("../images/bg-pattern-about-4.svg"),
+    url("../images/right.svg");
+  background-repeat: no-repeat;
+}
+.stories-container {
+}
+.container {
+}
+.stories-itle {
+}
+.blue-text {
+}
+.stories-list-wrapper {
+}
+.stories-list {
+}
+.stories-item {
+}
+.description {
+}
+.stories-item-content {
+}
+.stories-item-owner-name {
+}
+.stories-owner-job {
+}
+.stories-owner-image {
+}
+/* STORIES END */
