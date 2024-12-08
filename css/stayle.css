@@ -29,6 +29,7 @@
   font-weight: 700;
   src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2");
 }
+/* GLOBAL START */
 
 * {
   margin: 0;
@@ -124,6 +125,10 @@ img {
 .orange-divider {
   background-color: #f67e7e;
 }
+#active {
+  color: #f67e7e;
+}
+/* GLOBAL END */
 
 /* header start */
 .header {
@@ -280,8 +285,6 @@ img {
   margin-left: auto;
 }
 
-.stories-list-wrapper {
-}
 .stories-list {
   display: flex;
   text-align: center;
@@ -349,8 +352,7 @@ img {
 .footer-container {
   display: flex;
 }
-.container {
-}
+
 .footer-nav {
   margin-right: 125px;
 }
@@ -368,16 +370,14 @@ img {
 .footer-tel {
   color: inherit;
 }
-.footer-terms-and-links {
-}
+
 .footer-links {
   display: flex;
   justify-content: flex-end;
   gap: 16px;
   align-items: center;
 }
-.footer-links-item {
-}
+
 .footer-links-link {
   margin-bottom: 51px;
 }
