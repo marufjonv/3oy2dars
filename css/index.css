@@ -1,0 +1,149 @@
+@import "./global.css";
+
+/* hero start */
+
+.hero {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-home-1.svg"),
+    url("../images/bg-pattern-home-2.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 50px, right 165px bottom;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* hero end */
+
+/* service start  */
+
+.div-service {
+  display: flex;
+  padding-bottom: 140px;
+}
+.service {
+  background-color: #012f34;
+  background-image: url("../images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.service-container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 14px;
+}
+
+.service-title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+  height: 144px;
+  padding-right: 125px;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.service-item {
+  display: flex;
+  gap: 23px;
+}
+
+.service-item-title {
+  color: #f67e7e;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.service-description {
+  color: #ffffff;
+}
+/* service end */
+/* STORIES START */
+.stories {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"),
+    url("../images/bg-pattern-home-5.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  color: #ffffff;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.stories-title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  min-width: 932px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.stories-list {
+  display: flex;
+  text-align: center;
+}
+.stories-item {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+}
+.stories-description {
+  margin-bottom: 24px;
+}
+.stories-item-content {
+  margin-bottom: 32px;
+}
+.stories-owner-name {
+  font-size: 18px;
+}
+.stories-owner-job {
+  font-weight: 500;
+  font-size: 13px;
+}
+.stories-owner-image {
+  align-self: center;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+}
+/* STORIES END */
