@@ -1,1 +1,35 @@
 @import "./global.css";
+/* HERO STERT */
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 100px;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 730px;
+}
+
+.hero-divider {
+  margin-bottom: 40px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* HERO END */
