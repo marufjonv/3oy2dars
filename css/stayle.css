@@ -257,32 +257,135 @@ img {
 .stories {
   padding-top: 140px;
   padding-bottom: 140px;
-  background-image: url("../images/bg-pattern-about-4.svg"),
-    url("../images/right.svg");
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"),
+    url("../images/bg-pattern-home-5.svg");
   background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  color: #ffffff;
 }
+
 .stories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
 }
-.container {
+
+.stories-title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  min-width: 932px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.stories-itle {
-}
-.blue-text {
-}
+
 .stories-list-wrapper {
 }
 .stories-list {
+  display: flex;
+  text-align: center;
 }
 .stories-item {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
 }
-.description {
+.stories-description {
+  margin-bottom: 24px;
 }
 .stories-item-content {
+  margin-bottom: 32px;
 }
-.stories-item-owner-name {
+.stories-owner-name {
+  font-size: 18px;
 }
 .stories-owner-job {
+  font-weight: 500;
+  font-size: 13px;
 }
 .stories-owner-image {
+  align-self: center;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
 }
 /* STORIES END */
+
+/* CTA START */
+.cta {
+  background-color: #f67e7e;
+  padding-bottom: 76px;
+  padding-top: 76px;
+  background-image: url("../images/bg-pattern-home-6-about-5.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #012f34;
+  width: 100%;
+  max-width: 917px;
+}
+
+.cta-title {
+  font-size: 48px;
+}
+
+/* CTA END */
+
+/* FOOTER START */
+.foter {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #002529;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+}
+.container {
+}
+.footer-nav {
+  margin-right: 125px;
+}
+.footer-nav .site-logo {
+  margin-bottom: 25px;
+}
+.footer-info {
+  margin-right: auto;
+}
+
+.footer-info address {
+  opacity: 0.6;
+  font-style: normal;
+}
+.footer-tel {
+  color: inherit;
+}
+.footer-terms-and-links {
+}
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+}
+.footer-links-item {
+}
+.footer-links-link {
+  margin-bottom: 51px;
+}
+.footer-terms {
+  opacity: 0.6;
+}
+
+.footer-links-link:hover svg path {
+  fill: #f67e7e;
+}
+/* FOOTER END */
