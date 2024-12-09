@@ -46,6 +46,8 @@
   background-repeat: no-repeat;
   background-position: top left -100px, bottom right;
 }
+.directors-contaner {
+}
 
 .directors-title {
   font-size: 48px;
@@ -113,7 +115,10 @@
   background-repeat: no-repeat;
   background-position: top left;
 }
-
+.clients-container {
+}
+.container {
+}
 .clients-title {
   font-size: 48px;
   line-height: 48px;
@@ -124,6 +129,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.clients-logo-item {
 }
 
 /* clients end */
