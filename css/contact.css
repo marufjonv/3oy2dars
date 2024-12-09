@@ -1,0 +1,46 @@
+@import "./global.css";
+.hero {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg");
+  background-repeat: no-repeat;
+  background-position: top 67px left -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+}
+.hero-title {
+  font-size: 64px;
+  line-height: 100px;
+  margin-bottom: 16px;
+}
+.hero-subtitle {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.hero-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hero-content-item {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.hero-content-image {
+}
+.hero-content-description {
+  font-weight: 700;
+}
+
+.hero-form {
+  width: 100%;
+  max-width: 542px;
+}
